@@ -1,8 +1,8 @@
 {
-    "name": "ghost-starter-theme",
-    "description": "A custom theme for ghost",
-    "demo": "https://starter.ghost.io",
-    "version": "1.0.0",
+    "name": "india-theme",
+    "description": "Ghost theme for indie hackers, builders, and bootstrappers.",
+    "demo": "https://timskaggs.com",
+    "version": "0.1.0",
     "engines": {
         "ghost": ">=4.0.0"
     },
@@ -20,28 +20,33 @@
         "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn version && git push --follow-tags; fi"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Tim Skaggs",
+        "email": "team@timskaggs.com",
+        "url": "https://timskaggs.com"
     },
     "gpm": {
         "type": "theme",
         "categories": [
             "Minimal",
-            "Magazine"
+            "Magazine",
+            "Blog",
+            "Indie",
+            "Bootstrapper"
         ]
     },
     "keywords": [
         "ghost",
         "theme",
-        "ghost-theme"
+        "ghost-theme",
+        "indie",
+        "bootstrapper"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Starter.git"
+        "url": "https://github.com/tskaggs/indie.git"
     },
-    "bugs": "https://github.com/TryGhost/Starter/issues",
-    "contributors": "https://github.com/TryGhost/Starter/graphs/contributors",
+    "bugs": "https://github.com/tskaggs/indie/issues",
+    "contributors": "https://github.com/tskaggs/indie/graphs/contributors",
     "devDependencies": {
         "autoprefixer": "10.4.8",
         "beeper": "2.1.0",
