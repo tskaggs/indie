@@ -1,0 +1,4 @@
+{{#foreach navigation}}
+<a class="text-base font-medium text-gray-500 hover:text-gray-900 menu-item-{{slug}}{{#if current}} menu-item-current{{/if}}"
+  href="{{url absolute=" true"}}">{{label}}</a>
+{{/foreach}}
